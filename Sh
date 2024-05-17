@@ -1,0 +1,3 @@
+curl -X POST http://127.0.0.1:5000/activity -H "Content-Type: application/json" -d '{"user_id": 1, "product_id": 1, "action": "viewed"}'
+curl -X POST http://127.0.0.1:5000/activity -H "Content-Type: application/json" -d '{"user_id": 1, "product_id": 1, "action": "wanted_to_buy"}'
+curl -X POST http://127.0.0.1:5000/activity -H "Content-Type: application/json" -d '{"user_id": 1, "product_id": 1, "action": "bought"}'
